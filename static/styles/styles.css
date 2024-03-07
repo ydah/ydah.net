@@ -646,8 +646,16 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .block {
   display: block;
+}
+
+.flex {
+  display: flex;
 }
 
 .grid {
@@ -664,6 +672,14 @@ video {
 
 .grid-rows-5 {
   grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+
+.grid-rows-1 {
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .gap-4 {

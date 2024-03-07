@@ -2,6 +2,8 @@ html {
   font-family: "M PLUS 1p", sans-serif;
   font-weight: 500;
   font-style: normal;
+  max-width: 100%;
+  min-height: 100vh;
 }
 
 hr {
@@ -11,6 +13,16 @@ hr {
   max-width: 100%;
   transition: inherit;
   margin: 1rem 0;
+}
+
+.body-wrapper {
+  display: flex;
+  flex-direction:column;
+  min-height: 96vh;
+}
+
+main {
+  flex: 1;
 }
 
 .container {
