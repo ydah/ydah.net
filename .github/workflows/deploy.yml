@@ -1,0 +1,17 @@
+name: Deploy to GitHub Pages
+on:
+  - push
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+      - uses: shalzz/zola-deploy-action@v0.16.1
+        env:
+          REPOSITORY: ydah/ydah.net
+          PAGES_BRANCH: gh-pages
+          BUILD_DIR: public
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
