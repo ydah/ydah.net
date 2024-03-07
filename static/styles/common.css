@@ -1,0 +1,39 @@
+html {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+hr {
+  border-color: hsla(0, 0%, 100%, .12);
+  border-width: thin 0 0;
+  max-height: 0;
+  max-width: 100%;
+  transition: inherit;
+  margin: 1rem 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  width: 100%
+}
+
+@media(min-width: 960px) {
+  .container {
+      max-width:900px
+  }
+}
+
+@media(min-width: 1264px) {
+  .container {
+      max-width:1185px
+  }
+}
+
+@media(min-width: 1904px) {
+  .container {
+      max-width:1785px
+  }
+}
