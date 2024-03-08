@@ -7,7 +7,7 @@ html {
 }
 
 hr {
-  border-color: hsla(0, 0%, 100%, .12);
+  border-color: hsla(0, 0%, 100%, 0.12);
   border-width: thin 0 0;
   max-height: 0;
   max-width: 100%;
@@ -17,7 +17,7 @@ hr {
 
 .body-wrapper {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   min-height: 96vh;
 }
 
