@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://ydah.github.io/ydah.net/sitemap.xml
